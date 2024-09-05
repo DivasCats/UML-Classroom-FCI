@@ -42,7 +42,7 @@
 *&lt;Introdução do projeto&gt;*
 
 # Análise de Requisitos Funcionais e Não-Funcionais
-*&lt;CENÁRIO ATUAL:
+CENÁRIO ATUAL:
 PIZZA EXPRESS ENTREGA EM 1h
 tem perdido recentemente 30% do rendimento -> seu concorrente principal entrega em 30 minutos
 Apenas processa os pedidos, mas não que foi entregue
@@ -63,7 +63,7 @@ LOJA CENTRAL -> ENVIA O PEDIDO PARA A PIZZARIA + PRÓXIMA AO CLIENTE DENTRO DE 1
 	- controlar o tempo de saída da pizzaria até a casa do cliente
 	- confirmar que o cliente recebeu o pedido
 	- suporte ao cliente, lojinhas e entregadores
-	- segurança com dados do cliente&gt;*
+	- segurança com dados do cliente
 
 # Diagrama de Atividades
 
