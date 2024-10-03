@@ -27,14 +27,12 @@
 
 # Autores
 
-* Aluno 1
-* Aluno 2
-* Aluno 3
-* Aluno 4
-* Aluno 5
-* Aluno 6
-* Aluno 7
-* Aluno 8
+* Beatriz Soares
+* Bruna Zakaib Pessoa
+* Isabela Reali
+* Mariana Chiorboli
+* Yasmin Mendes
+
 
 
 # Descrição do Projeto
@@ -42,28 +40,44 @@
 *&lt;Introdução do projeto&gt;*
 
 # Análise de Requisitos Funcionais e Não-Funcionais
-CENÁRIO ATUAL:
-PIZZA EXPRESS ENTREGA EM 1h
-tem perdido recentemente 30% do rendimento -> seu concorrente principal entrega em 30 minutos
-Apenas processa os pedidos, mas não que foi entregue
+## Requisitos Funcionais
+* Gestão de Pedidos:
+Receber pedidos da loja central;
+Confirmar o recebimento do pedido pela pizzaria;
+Atualizar o status do pedido em tempo real (preparo, saída para entrega, entregue).
+* Localização e Roteamento:
+Localizar a pizzaria mais próxima do cliente;
+Calcular o trajeto mais curto e rápido para a entrega;
+Monitorar a localização do entregador em tempo real.
+* Controle de Tempo:
+Controlar o tempo de preparo da pizza;
+Controlar o tempo de saída da pizzaria até a casa do cliente;
+Garantir que a entrega seja feita em menos de 30 minutos.
+* Comunicação:
+Notificar o cliente sobre o status do pedido (pedido recebido, em preparo, a caminho, entregue);
+Permitir comunicação direta entre o cliente e o entregador.
+* Suporte ao Cliente:
+Oferecer suporte ao cliente via chat ou telefone;
+Registrar e gerenciar reclamações e feedbacks dos clientes.
+* Segurança de Dados:
+Proteger os dados pessoais dos clientes;
+Garantir a conformidade com as leis de proteção de dados.
 
-NECESSIDADE:
-Buscar pizzaria mais próxima do cliente
-A pizza deve ser entregue em menos de 30 min
-Montar lojas de pizza que RECEBEM O PEDIDO, PREPARAM E ENTREGAM
-LOJA CENTRAL -> ENVIA O PEDIDO PARA A PIZZARIA + PRÓXIMA AO CLIENTE DENTRO DE 10 a 15 min 
-
-1) SISTEMA DE SOFTWARE DA LOJA CENTRAL -> LOCALIZAR LOJA MAIS PRÓXIMA E ENVIAR PEDIDO
-2) SISTEMA DA LOJINHA QUE IRÁ PROCESSAR TODA A OPERAÇÃO:
-	- receber o pedido
-	- controlar o tempo (de preparo, de saída, de entrega...)
-	- localizar entregador
-	- trajeto mais curto
-	- entregar
-	- controlar o tempo de saída da pizzaria até a casa do cliente
-	- confirmar que o cliente recebeu o pedido
-	- suporte ao cliente, lojinhas e entregadores
-	- segurança com dados do cliente
+## Requisitos Não-Funcionais
+* Desempenho:
+O sistema deve ser capaz de processar e atualizar o status dos pedidos em tempo real;
+O tempo de resposta do sistema deve ser inferior a 2 segundos para qualquer operação.
+* Escalabilidade:
+O sistema deve suportar um aumento no número de pedidos sem degradação de desempenho;
+Deve ser possível adicionar novas pizzarias ao sistema sem necessidade de grandes modificações.
+* Usabilidade:
+A interface do sistema deve ser intuitiva e fácil de usar para os funcionários das pizzarias e entregadores;
+Deve haver treinamento e documentação disponíveis para os usuários do sistema.
+* Manutenibilidade:
+O sistema deve ser modular para facilitar a manutenção e atualização;
+Deve haver logs detalhados para monitoramento e diagnóstico de problemas.
+* Notificações e Alertas:
+Enviar notificações e alertas para os gerentes em caso de atrasos ou problemas na entrega.
 
 # Diagrama de Atividades
 
