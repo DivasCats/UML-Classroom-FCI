@@ -34,7 +34,7 @@
 
 # Descrição do Projeto
 
-*&lt;Introdução do projeto&gt;*
+Este projeto é um sistema de software que gerencia o atendimento de pedidos de pizza, localizando a fábrica mais próxima do cliente para realizar a entrega. Além disso, o sistema oferece suporte às operações internas da fábrica de pizzas, otimizando todo o processo desde o recebimento do pedido até a entrega final ao cliente.
 
 # Análise de Requisitos Funcionais e Não-Funcionais
 ## Requisitos Funcionais
