@@ -3,7 +3,7 @@
 
 
 <font size="+12"><center>
-*&lt;Pizza-Express: sistema de software para entregas mais rápidas&gt;*
+#Pizza-Express: sistema de software para entregas mais rápidas
 </center></font>
 
 
