@@ -80,8 +80,106 @@ Deve haver logs detalhados para monitoramento e diagnóstico de problemas.
 Enviar notificações e alertas para os gerentes em caso de atrasos ou problemas na entrega.
 
 # Diagrama de Atividades
+[Uploading Diagrama de a<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
+  <diagram name="Página-1" id="D6T-ny9HFWSgQPYE0R1I">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2Vbqry-GRGLUIXmraaCw-1" value="CLIENTE" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="130" width="260" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="2Vbqry-GRGLUIXmraaCw-3" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="2Vbqry-GRGLUIXmraaCw-1">
+          <mxGeometry x="100" y="50" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2Vbqry-GRGLUIXmraaCw-5" value="Fazer o pedido" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="2Vbqry-GRGLUIXmraaCw-1">
+          <mxGeometry x="60" y="120" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2Vbqry-GRGLUIXmraaCw-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2Vbqry-GRGLUIXmraaCw-1" source="2Vbqry-GRGLUIXmraaCw-3" target="2Vbqry-GRGLUIXmraaCw-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Vbqry-GRGLUIXmraaCw-6" value="SISTEMA&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="130" width="260" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="2Vbqry-GRGLUIXmraaCw-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2Vbqry-GRGLUIXmraaCw-6" source="2Vbqry-GRGLUIXmraaCw-8" target="2Vbqry-GRGLUIXmraaCw-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Vbqry-GRGLUIXmraaCw-8" value="Localizar a Pizzaria mais próxima do cliente" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="2Vbqry-GRGLUIXmraaCw-6">
+          <mxGeometry x="44" y="80" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2Vbqry-GRGLUIXmraaCw-11" value="Mandar o pedido para a Pizzaria" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="2Vbqry-GRGLUIXmraaCw-6">
+          <mxGeometry x="44" y="240" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2Vbqry-GRGLUIXmraaCw-13" value="PIZZARIA" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="130" width="260" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="2Vbqry-GRGLUIXmraaCw-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2Vbqry-GRGLUIXmraaCw-13" source="2Vbqry-GRGLUIXmraaCw-15" target="2Vbqry-GRGLUIXmraaCw-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Vbqry-GRGLUIXmraaCw-15" value="Recebe o pedido do sistema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="2Vbqry-GRGLUIXmraaCw-13">
+          <mxGeometry x="50" y="80" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2Vbqry-GRGLUIXmraaCw-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2Vbqry-GRGLUIXmraaCw-13" source="2Vbqry-GRGLUIXmraaCw-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Vbqry-GRGLUIXmraaCw-16" value="Cozinha e embala a pizza para entrega" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="2Vbqry-GRGLUIXmraaCw-13">
+          <mxGeometry x="50" y="220" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2Vbqry-GRGLUIXmraaCw-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2Vbqry-GRGLUIXmraaCw-13" source="2Vbqry-GRGLUIXmraaCw-18" target="2Vbqry-GRGLUIXmraaCw-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Vbqry-GRGLUIXmraaCw-18" value="Chama o motoboy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="2Vbqry-GRGLUIXmraaCw-13">
+          <mxGeometry x="50" y="364.5" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2Vbqry-GRGLUIXmraaCw-19" value="Entrega a pizza" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="2Vbqry-GRGLUIXmraaCw-13">
+          <mxGeometry x="55" y="500" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2Vbqry-GRGLUIXmraaCw-21" value="MOTOBOY" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="130" width="260" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="2Vbqry-GRGLUIXmraaCw-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2Vbqry-GRGLUIXmraaCw-21" source="2Vbqry-GRGLUIXmraaCw-23" target="2Vbqry-GRGLUIXmraaCw-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Vbqry-GRGLUIXmraaCw-23" value="Recebe a pizza" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="2Vbqry-GRGLUIXmraaCw-21">
+          <mxGeometry x="50" y="80" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2Vbqry-GRGLUIXmraaCw-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2Vbqry-GRGLUIXmraaCw-21" source="2Vbqry-GRGLUIXmraaCw-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Vbqry-GRGLUIXmraaCw-25" value="Leva a pizza ao cliente" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="2Vbqry-GRGLUIXmraaCw-21">
+          <mxGeometry x="50" y="220" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2Vbqry-GRGLUIXmraaCw-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2Vbqry-GRGLUIXmraaCw-21" source="2Vbqry-GRGLUIXmraaCw-27" target="2Vbqry-GRGLUIXmraaCw-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Vbqry-GRGLUIXmraaCw-27" value="Entrega a Pizza" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="2Vbqry-GRGLUIXmraaCw-21">
+          <mxGeometry x="50" y="364.5" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2Vbqry-GRGLUIXmraaCw-28" value="Finaliza o pedido" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="2Vbqry-GRGLUIXmraaCw-21">
+          <mxGeometry x="55" y="500" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="chHtD0AbRH1xzWBRown5-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="2Vbqry-GRGLUIXmraaCw-5" target="2Vbqry-GRGLUIXmraaCw-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="chHtD0AbRH1xzWBRown5-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2Vbqry-GRGLUIXmraaCw-11" target="2Vbqry-GRGLUIXmraaCw-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="chHtD0AbRH1xzWBRown5-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2Vbqry-GRGLUIXmraaCw-19" target="2Vbqry-GRGLUIXmraaCw-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
+tividade.drawio…]()
 
-*&lt;Diagrama para visualizer as pessoas das áreas de negócios e de desenvolvimento de uma organização para entender o processo e comportamento.&gt;*
+
 
 # Diagrama de Casos de Uso
 
