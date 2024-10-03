@@ -3,12 +3,9 @@
 
 
 <font size="+12"><center>
-*&lt;Nome do Projeto&gt;*
+*&lt;Pizza-Express: sistema de software para entregas mais rápidas&gt;*
 </center></font>
 
->*Observação 1: A estrutura inicial deste documento é só um exemplo. O seu grupo deverá alterar esta estrutura de acordo com o que está sendo solicitado na disciplina.*
-
->*Observação 2: O índice abaixo não precisa ser editado se você utilizar o Visual Studio Code com a extensão **Markdown All in One**. Essa extensão atualiza o índice automaticamente quando o arquivo é salvo.*
 
 **Conteúdo**
 
@@ -85,8 +82,9 @@ Enviar notificações e alertas para os gerentes em caso de atrasos ou problemas
 
 
 # Diagrama de Casos de Uso
+![casosdeuso_engsoft drawio](https://github.com/user-attachments/assets/e3b2fc58-55b9-432a-bc30-4a2905a08340)
 
-*&lt;Diagrama para visualizar o comportamento dos atores&gt;*
+
 
 # Descrição dos Casos de Uso
 
