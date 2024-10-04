@@ -87,8 +87,8 @@ Enviar notificações e alertas para os gerentes em caso de atrasos ou problemas
 
 
 # Descrição dos Casos de Uso
+![Diagrama pizzaria drawio](https://github.com/user-attachments/assets/7e8a20d6-2ef5-4b6d-ae4e-64250ba2c5a1)
 
-*&lt;Descrição do comportamento entre os atores/resquisitos&gt;*
 
 # Diagrama de Sequência
 
