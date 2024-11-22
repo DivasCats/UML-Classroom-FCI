@@ -95,8 +95,9 @@ Enviar notificações e alertas para os gerentes em caso de atrasos ou problemas
 *&lt;Diagrama de ordem e interação dos objetos&gt;*
 
 # Diagrama de Classes
+![diagrama_classes drawio](https://github.com/user-attachments/assets/c83ed695-56fb-495f-8f17-1a440c916225)
 
-*&lt;Diagrama de relacionamento entre classes para os seus atributos e operações&gt;*
+
 
 # Diagrama de Estados
 
