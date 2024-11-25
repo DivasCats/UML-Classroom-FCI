@@ -92,7 +92,7 @@ Enviar notificações e alertas para os gerentes em caso de atrasos ou problemas
 
 # Diagrama de Sequência
 
-*&lt;Diagrama de ordem e interação dos objetos&gt;*
+![image](https://github.com/user-attachments/assets/fb4182da-cdb4-4150-878b-112c3d0b1e39)
 
 # Diagrama de Classes
 ![diagrama_classes drawio](https://github.com/user-attachments/assets/c83ed695-56fb-495f-8f17-1a440c916225)
@@ -100,12 +100,12 @@ Enviar notificações e alertas para os gerentes em caso de atrasos ou problemas
 
 
 # Diagrama de Estados
+![image](https://github.com/user-attachments/assets/25aa4c7d-44d6-4197-9de9-0399d030f7d1)
 
-*&lt;Diagrama para permite modelar o comportamento interno de um determinado objeto, subsistema ou sistema global&gt;*
 
 # Diagrama de Implantação
+![image](https://github.com/user-attachments/assets/971c80aa-4d5c-4d2a-a4d7-618e441f5647)
 
-*&lt;Diagrama para exibir o relacionamento de hardware e software no projeto&gt;*
 
 # Referências
 
