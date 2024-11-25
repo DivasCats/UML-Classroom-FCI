@@ -91,8 +91,12 @@ Enviar notificações e alertas para os gerentes em caso de atrasos ou problemas
 
 
 # Diagrama de Sequência
+![image](https://github.com/user-attachments/assets/0adfbb29-e045-4c33-8f5e-557cf9c0e21d)
+# Diagrama de Sequência
+![image](https://github.com/user-attachments/assets/ab700e15-16f6-4f3e-84bd-54e096d1e019)
+# Diagrama de Sequência
+![image](https://github.com/user-attachments/assets/1e8a187d-1cd7-4001-bda9-3cff3fa0e7c3)
 
-![image](https://github.com/user-attachments/assets/fb4182da-cdb4-4150-878b-112c3d0b1e39)
 
 # Diagrama de Classes
 ![diagrama_classes drawio](https://github.com/user-attachments/assets/c83ed695-56fb-495f-8f17-1a440c916225)
