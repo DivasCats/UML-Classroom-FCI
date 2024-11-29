@@ -108,7 +108,8 @@ Enviar notificações e alertas para os gerentes em caso de atrasos ou problemas
 
 
 # Diagrama de Implantação
-![image](https://github.com/user-attachments/assets/971c80aa-4d5c-4d2a-a4d7-618e441f5647)
+![image](https://github.com/user-attachments/assets/f8cb843b-4228-4254-9a02-ba034d4bba17)
+
 
 
 # Referências
