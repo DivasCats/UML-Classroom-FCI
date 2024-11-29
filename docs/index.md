@@ -82,8 +82,7 @@ Enviar notificações e alertas para os gerentes em caso de atrasos ou problemas
 
 
 # Diagrama de Casos de Uso
-![casosdeuso_engsoft drawio](https://github.com/user-attachments/assets/e3b2fc58-55b9-432a-bc30-4a2905a08340)
-
+![diagramasCasosDeUso drawio](https://github.com/user-attachments/assets/d33a73ee-5c02-4816-8a9d-b496bbc58419)
 
 
 # Descrição dos Casos de Uso
